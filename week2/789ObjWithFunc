@@ -1,0 +1,29 @@
+/Make a list of vehicles, you can add "motorbike", "caravan", "bike", or more.
+
+let vehicles = {
+  vehicle1:"carvan",
+  vehicle2:"bike",
+  vehicle3:"motorbike",
+  vehicle4:"car",
+  vehicle5:"airplane"
+}
+
+//How do you get the third element from that list?
+
+console.log(vehicles.vehicle3);
+
+
+//Change the function vehicle to use the list of question 4. So that vehicle("green", 3, 1) prints "a green new caravan".
+
+let c = "green"
+let a = "new"
+let b = vehicles.vehicle1
+
+function vehicle(c, a, b){
+    console.log("a " + c, a, b);
+  return
+}
+
+vehicle(c, a, b)
+vehicle("blue", "used", vehicles.vehicle2)
+vehicle("red", "classic", vehicles.vehicle4)
