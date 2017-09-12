@@ -1,0 +1,9 @@
+let vehiclesList = ["carvan ", "bike ", "motorbike ", "car ", "airplane"]
+vehiclesList.push(" boat");
+let vehicle = "";
+
+for (let c in vehiclesList){
+  vehicle += ", " + vehiclesList[c];
+}
+
+console.log("Amazing Joe's Garage, we service " + vehicle);
