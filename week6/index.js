@@ -31,7 +31,7 @@ function displayRepos() {
 
     for (let i of allRepos) { //convert the dataObject to an Array
         let li = document.createElement("li");
-        li.innerHTML = '<a href="' + i.url + '"target="_blank">' + i.name + '</a>';
+        li.innerHTML = '<a href="' + i.html_url + '"target="_blank">' + i.name + '</a>';
         reposList.appendChild(li);
         let repoName = i.name.toLowerCase()
         repoNames.push(repoName)
