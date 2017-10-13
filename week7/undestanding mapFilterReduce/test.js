@@ -5,67 +5,41 @@ let numbers = [1,2,3,4,5,6,7,8,9,10];
 
 //Arrow Function Syntax
 
-//let double = numbers.map(x => x * 2);            
-//
-//
+let double = numbers.map(x => x * 2);            
+
+
 ////Normal Function
-//let dobule2 = numbers.map(function(x){
-//    return x = x * 2;
-//})
+let dobule2 = numbers.map(function(x){
+   return x = x * 2;
+})
 //
-//console.log(double,dobule2);
+console.log(double,dobule2);
 //
 //
 ////FILTER is Even
 ////Arrow Function Syntax
-//let isEven = numbers.filter(x => x % 2 == 0); 
-//console.log(isEven);
+let isEven = numbers.filter(x => x % 2 == 0); 
+console.log(isEven);
 ////
 ////
 //////Normal Function
-//let isEvenLoop = numbers.filter(function(x){
-//    return x = x % 2 == 0 ;
+let isEvenLoop = numbers.filter(function(x){
+   return x = x % 2 == 0 ;
 //});
 //
-//console.log(isEvenLoop);
+console.log(isEvenLoop);
 //                             
 ////FILTER is Odd
 ////Arrow Function Syntax
-//let isOdd = numbers.filter(x => x % 2);
-//console.log(isOdd);
+let isOdd = numbers.filter(x => x % 2);
+console.log(isOdd);
 //
 //////Normal Function
-//let isOddLoop = numbers.filter(function(x){
-//    return x = x % 2;
-//});
-//console.log(isOddLoop);
-////
-
-
-
-
- x = Math.ceil(10.126);
-console.log(x);
-
-   
-    
-
-
-
-//let names =[ {
-//    a:"Alaa",
-//    b:"AlaaJarida",
-//    c:"Tim"
-//},
-//{
-//     a:"Walaa",
-//    b:"Omar",
-//    c:"Toteh"
-//}           ]
+let isOddLoop = numbers.filter(function(x){
+   return x = x % 2;
+});
+console.log(isOddLoop);
 //
-////console.log(names[0]);
-//
-//for ( i of names){
-//    console.log(i);
-//}
-//
+
+
+
