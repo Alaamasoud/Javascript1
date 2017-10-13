@@ -1,0 +1,114 @@
+* {margin:0;
+    padding: 0;
+box-sizing:border-box;
+font-family: 'Roboto', sans-serif;}
+
+body { background-image: url(bg.jpg);
+background-position:top;
+background-repeat: no-repeat;
+background-size: cover;}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 2vh;
+}
+
+h1 {text-align: center;
+color: #fff;
+padding-bottom: 2vh;}
+
+.btnContainers {width: 80%;
+margin: auto;}
+
+button {
+    background-color: #00f4ef;
+    border: 2px solid #00f4ef;
+    color: #003c3c;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color:transparent;
+    border: 2px solid #00f4ef;
+    color: #00f4ef;
+}
+
+input[type=text] {
+    width: 180px;
+    color: #003c3c;
+    box-sizing: border-box;
+    border: 2px solid #00f4ef;
+    font-size: 16px;
+    background-color: #00f4ef;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding:15px 15px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 40%;
+}
+
+input::placeholder {
+   color: #003c3c;
+}
+
+#reposContainer {
+    margin: 5px;
+    margin-left: 10%;
+    padding: 5px;
+    background-color:rgba(0, 60, 60, 0.8);
+    width: 36%;
+    border: 1px solid #00f4ef;
+   float: left;
+    display: none;
+}
+
+#reposContainer ol li,a{
+    padding-left: 2px;
+    list-style: none;
+text-decoration: none;
+ color: white;
+}
+
+#reposContainer ol li a:hover{
+ color:#00f4ef;
+}
+
+#contrContainer {margin: 5px;
+   margin-right: 15%;
+    padding: 5px;
+    background-color:rgba(0, 60, 60, 0.8);
+    width: 37%;
+    border: 1px solid #00f4ef;
+    float: right;
+    display: none;
+    
+    }
+
+#contrContainer ul li {
+      padding-left: 2px;
+    list-style: none;
+text-decoration: none;
+padding-bottom: 2vh;    
+ color: white;
+}
+
+img {width: 70%;
+display: block;
+margin: auto;}
+
+h3{
+     color:#00f4ef;
+    font-weight: normal;
+    margin-top: 2vh;
+    font-size: 16px;
+}
